@@ -1,0 +1,386 @@
+/*Travis*/
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+textarea {
+	resize: none;
+}
+.ui-page.ui-body-c{
+    background-image: url("icons/chalkboard.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	border-width:0px;
+}
+
+.ui-li:last-child, .ui-li.ui-field-contain:last-child {
+border-bottom: none !important;
+}
+
+.ui-body-c, .ui-body-c select, .ui-body-c button {
+	color : #FFFFFF !important;
+}
+.ui-body-c textarea {
+	color : #000000 !important;
+}
+.ui-body-c input {
+	color : #000000 !important;
+}
+.hide {
+	display: none;
+}
+
+#myList .ui-btn-inner {
+    text-align: center;
+}
+#message_textarea {
+	height: 10em;
+}
+
+.teacher_lesson_header {
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333b8d;
+	padding-top: 10px;
+}
+
+.teacher_section {
+	border-bottom: solid 1px #A4A4A4;
+	width: 50%;
+	padding-top: 10px;
+}
+
+#teacher_name_header {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.ui-field-contain {
+
+}
+.create_button {
+	background: url('icons/create-chalk.png') no-repeat top left !important;
+}
+#to_or_from {
+	border-bottom: solid 5px #FFFFFF;
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+}
+/*Thanks to http://css-tricks.com/star-ratings/ for helping with the css for this*/
+.rating {
+	unicode-bidi: bidi-override;
+	color : #D9D919 !important;
+	font-size : 200%; 
+}
+.rating > span {
+	display: inline-block;
+	position: relative;
+	width: 1.1em;
+}
+
+#teacher_profile_search_bar {
+	width: 95%;
+	margin: auto;
+}
+
+#search_results_search_bar {
+	margin: left;
+	width: 95%;
+}
+
+#teacher_name {
+	font-family: Helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+#teacher_email {
+	float: right;
+	stext-align: center;
+	font-family: Helvetica;
+	font-size: 19px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.also_teaches_container {
+	border-top: dashed 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	border-bottom: solid 1px #A4A4A4;
+	padding-top: 10px;
+	padding-bottom:20px;
+	width: 95%;
+	margin: auto;
+}
+
+.profile_footer {
+	//border-top: dashed 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	border-bottom: solid 1px #A4A4A4;
+	padding-top: 10px;
+	padding-bottom:20px;
+	width: 95%;
+	margin: auto;
+	background-color: #ffffff;
+}
+
+/*
+ * Login.php
+ */
+.error {
+	color : #ffffff;
+}
+
+.success {
+	color : #ffffff;
+}
+ 
+ .rating_box { 
+	width: 100%;
+	height:auto !important;
+	background-color: #6699cc !important;
+ }
+ .no_rating {
+	width: 100%;
+	height:auto !important;
+	background-color: #6699cc !important;
+ }
+#first_layer_profile {
+width: 100%;
+height: 50px;
+background-color: #6699cc;
+border-top: solid 1px #000000;
+border-bottom: solid 1px #000000;
+border-color: #A4A4A4;
+}
+
+#overall-rating-box{
+	border-top: solid 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	width : 80%;
+	border-bottom: solid 1px #A4A4A4;
+}
+#profile_header {
+	width: 80%;
+	margin: auto;
+	padding-top: 5px;
+}
+
+.profile_name_header {
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #333b8d;
+}
+
+.profile_lesson_header {
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: #333b8d;
+}
+
+#mini_nav {
+	height: 45px;
+	border-bottom: solid 1px #000000;
+}
+
+#profile_wrapper {
+	//padding-top: 5px;
+	//padding-left: 20px;
+	//padding-right: 20px;
+	width: 100%;
+	margin: auto;
+}
+
+.profile_option {
+	width: 95%;
+	margin: auto;
+}
+
+.ui-body-c, .ui-overlay-c{
+	text-shadow: 0 0 0 white !important;
+}
+
+#second_layer_teacher_profile {
+	height: 150px;
+	//padding-bottom: 10px;
+	border-top: solid 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	border-bottom: solid 1px #A4A4A4;
+	width: 95%;
+	margin: auto;
+	background-color: #737272;//#ffffff;
+}
+
+#second_layer_profile {
+	//height: 150px;
+	//padding-bottom: 10px;
+	border-top: solid 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	border-bottom: dashed 1px #A4A4A4;
+	width: 95%;
+	margin: auto;
+	background-color: #737272;
+}
+
+#second_layer_edit_profile {
+	border-top: solid 1px #A4A4A4;
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	border-bottom: solid 1px #A4A4A4;
+	width: 95%;
+	margin: auto;
+	background-color: #737272;
+}
+#personal_info_container {	
+	text-align:center;
+}
+
+#personal_info {
+	//width: 100px;
+	height: 150px;
+	//margin-left: 20px;
+	padding-left: 10px;
+}
+
+#user_pic_container {
+	border-left-width: 1px;
+	border-left-color: #A4A4A4;
+	border-left-style: solid;
+	float: right;
+} 
+
+#user_pic {
+	width: 150;
+	height: 150;
+	//padding: 5px;
+}
+/*put all the stars in one line */
+.stars{
+	text-align:left;
+	white-space: nowrap;
+}
+#third_layer_profile {
+	padding-bottom: 50px;
+}
+
+.lesson_info_container {
+	border-left: solid 1px #A4A4A4;
+	border-right: solid 1px #A4A4A4;
+	padding-top: 10px;
+	padding-bottom:20px;
+	width: 95%;
+	margin: auto;
+	background-color: #737272;
+}
+
+.lesson_info {
+	//width: 600px;
+	//height: 400px;
+	margin-left: 20px;
+}
+
+#availability_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+#availability_info {
+	width: 600px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+#second_layer_create_profile {
+	padding-top: 50px;
+	height: 250px;
+	padding-bottom: 10px;
+}
+
+#create_user_pic_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 200px;
+	margin: auto;
+}
+
+#third_layer_create_profile {
+
+}
+
+#create_personal_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 250px;
+	margin: auto;
+}
+
+#create_personal_info {
+	width: 35%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#create_experience_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 250px;
+	margin: auto;
+}
+
+#create_experience {
+	width: 35%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#fourth_layer_create_profile {
+	padding-top: 20px;
+}
+
+#create_calendar_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 100px;
+	margin: auto;
+}
+
+#create_calendar {
+	width: 35%;
+	margin: auto;
+	padding-top: 35px;
+}
+
+.header_extra_style {
+	padding : 10px;
+} 
+
+.notice_top {
+	font-family: "Helvetica";
+	color: #CC0000;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}

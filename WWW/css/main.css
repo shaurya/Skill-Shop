@@ -1,0 +1,203 @@
+/*Travis*/
+
+body {
+	-webkit-text-size-adjust: none;
+}
+
+
+#first_layer_profile {
+width: 100%;
+height: 50px;
+background-color: #6699cc;
+border-top: solid 1px #000000;
+border-bottom: solid 1px #000000;
+}
+
+#profile_header {
+	width: 80%;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#mini_nav {
+	height: 45px;
+	border-bottom: solid 1px #000000;
+}
+
+#profile_wrapper {
+	padding-top: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 80%;
+	margin: auto;
+}
+
+#second_layer_profile {
+	height: 250px;
+	padding-bottom: 10px;
+}
+
+#personal_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	float: right;
+}
+
+#personal_info {
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+#user_pic_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	float: left;
+} 
+
+#user_pic {
+	width: 125px;
+	height: 125px;
+	padding: 5px;
+}
+
+#third_layer_profile {
+	padding-bottom: 50px;
+}
+
+#lesson_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+#lesson_info {
+	width: 600px;
+	height: 400px;
+	margin-left: 20px;
+}
+
+#fourth_layer_profile {
+
+}
+
+#availability_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+
+#availability_info {
+	width: 600px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+#second_layer_create_profile {
+	padding-top: 50px;
+	height: 250px;
+	padding-bottom: 10px;
+}
+
+#create_user_pic_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 200px;
+	margin: auto;
+}
+
+#third_layer_create_profile {
+
+}
+
+#create_personal_info_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 250px;
+	margin: auto;
+}
+
+#create_personal_info {
+	width: 35%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#create_experience_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 250px;
+	margin: auto;
+}
+
+#create_experience {
+	width: 35%;
+	margin: auto;
+	padding-top: 100px;
+}
+
+#fourth_layer_create_profile {
+	padding-top: 20px;
+}
+
+#create_calendar_container {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+	width: 50%;
+	height: 100px;
+	margin: auto;
+}
+
+#create_calendar {
+	width: 35%;
+	margin: auto;
+	padding-top: 35px;
+}
+
+#header {
+	background-color : #0099ff;
+	color : white;
+	padding : 10px;
+	width : 100%;
+}
+
+#navigation_bar {
+	height : 55px;
+	background : -webkit-linear-gradient(bottom, rgb(80,71,105) 21%, rgb(0,153,255) 79%);
+	-webkit-box-shadow: 0 0 2px #E4E3E3;
+	padding : 10px;
+	color : white;
+	width : 100%;
+}
+
+#nav_button{
+	padding : 5px;
+	height : 50px;
+	background-color : black;
+	color : white;
+}
+
+#left_user_part{
+	float : left;
+	height : 55px;
+}
+
+#right_button_part {
+	float : right;
+	height : 55px;
+}
+
+#content {
+	width : 80%;
+	background-color:#CCCCFF;
+}
+

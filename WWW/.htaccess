@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html?$ /~jtsanch/cgi-bin/skill-searcher/ [NC,R,L]
