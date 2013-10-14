@@ -1,4 +1,3 @@
-CS-147-Project
-==============
+#Skill Shop
 
-This will be where we store our project. It has no "official name" due to the fact that I don't know what we are going to call it.
+A mobile web application that allows users to find talented people within their communirty share skills with. It allows a community to grow thorugh the mutual excange of skills. It can also help a user find find a teacher for a skill that he/she has been meaning to learn. This has been made using JQuery mobile, HTML5, PHP and CSS. 
